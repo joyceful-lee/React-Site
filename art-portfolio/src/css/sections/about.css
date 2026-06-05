@@ -1,0 +1,34 @@
+.about__title h1{
+  font-size: 48px;
+  font-family: var(--sarina);
+  text-shadow: 2px 2px var(--dusty-blue);
+}
+
+.about__content {
+  display: flex;
+  gap: 32px;
+  margin-top: 32px;
+    @media (max-width: 1024px) {
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 20px;
+    }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  font-size: 18px;
+  line-height: 150%;
+  margin-bottom: 16px;
+}
+
+.about__label {
+    font-size: 20px;
+    font-family: var(--sarina);
+    text-shadow: 1px 1px var(--dusty-blue);
+}
