@@ -21,14 +21,14 @@ function Navbar() {
         </li>
 
         <li>
-          <NavLink to="/portfolio" className={linkClass}>
-            Portfolio
+          <NavLink to="/about" className={linkClass}>
+            About
           </NavLink>
         </li>
 
         <li>
-          <NavLink to="/about" className={linkClass}>
-            About
+          <NavLink to="/portfolio" className={linkClass}>
+            Portfolio
           </NavLink>
         </li>
       </ul>

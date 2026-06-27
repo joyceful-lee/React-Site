@@ -18,18 +18,19 @@
     padding-left: 10px;
     font-weight: 700;
     font-size: 48px;
-    /* text-transform: uppercase; */
     font-family: var(--sarina);
     opacity: 0.8;
     color: var(--baby-blue);
     z-index: 5;
+    
+    /* text-transform: uppercase; */
 }
 
 .header__menu {
     padding: 20px;
     flex: 1.236;
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: flex-end;
     gap: 64px;
     list-style: none;
